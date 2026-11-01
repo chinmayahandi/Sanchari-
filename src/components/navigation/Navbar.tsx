@@ -54,7 +54,7 @@ export function Navbar() {
           >
             <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-white flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform overflow-hidden relative border border-surface-border">
               <Image
-                src="/logo/sanchari-logo.jpg"
+                src="/logo/sanchari-logo.png"
                 alt="Sanchari emblem"
                 width={44}
                 height={44}

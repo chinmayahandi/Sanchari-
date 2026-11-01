@@ -3,11 +3,11 @@
 This directory holds the brand vector and bitmap marks for **Sanchari**.
 
 ### Primary Brand Assets:
-- `sanchari-logo.jpg`: User-supplied emblem featuring iconic Karnataka landmarks in a map-pin lockup (*"Explore Karnataka. Your Way."*).
-- `sanchari-mark.jpg`: Compact emblem for mobile headers, navigation icons, and favicons.
+- `sanchari-logo.png`: Transparent emblem featuring iconic Karnataka landmarks in a map-pin lockup (*"Explore Karnataka. Your Way."*).
+- `sanchari-mark.png`: Compact transparent emblem for mobile headers, navigation icons, and favicons.
 
 ### If an external or previously rendered raster/SVG logo file is provided:
-1. Place the primary SVG, JPG or high-resolution PNG file at `/public/logo/sanchari-logo.jpg`.
+1. Place the primary PNG file at `/public/logo/sanchari-logo.png`.
 2. The site header component (`src/components/navigation/Navbar.tsx`) and footer (`src/components/layout/Footer.tsx`) reference these assets and automatically render them.
 
 ### Brand Color Tokens:

@@ -15,7 +15,7 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2.5 mb-4 group inline-block">
               <div className="w-10 h-10 rounded-xl bg-white p-1 flex items-center justify-center overflow-hidden border border-white/20">
                 <Image
-                  src="/logo/sanchari-logo.jpg"
+                  src="/logo/sanchari-logo.png"
                   alt="Sanchari"
                   width={40}
                   height={40}

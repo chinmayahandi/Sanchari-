@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   authors: [{ name: "Sanchari" }],
   creator: "Sanchari",
   icons: {
-    icon: "/logo/sanchari-logo.jpg",
-    apple: "/logo/sanchari-logo.jpg",
+    icon: "/logo/sanchari-logo.png",
+    apple: "/logo/sanchari-logo.png",
   },
   openGraph: {
     title: "Sanchari — Explore Karnataka. Your Way.",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
       "Modern local tourism discovery platform for Karnataka. Plan homestays, find licensed guides, and book authentic cultural experiences.",
     url: "https://sanchari.in",
     siteName: "Sanchari",
-    images: [{ url: "/logo/sanchari-logo.jpg", width: 800, height: 800, alt: "Sanchari Logo" }],
+    images: [{ url: "/logo/sanchari-logo.png", width: 500, height: 500, alt: "Sanchari Logo" }],
     locale: "en_IN",
     type: "website",
   },
