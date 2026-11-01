@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F7F9FC;
+  --foreground: #1F2937;
+  --forest-green: #14532D;
+  --emerald: #10B981;
+  --sunshine-yellow: #FACC15;
+  --terracotta: #E76F51;
+  --sky-blue: #38BDF8;
+  --warm-ivory: #FFFBF2;
+  --white: #FFFFFF;
+  --dark-charcoal: #1F2937;
+  --primary-navy: #102A43;
+  --primary-teal: #087E8B;
+  --travel-orange: #F28C28;
+  --nature-green: #438B54;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F0F4F8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BCCCDC;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #829AB1;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid #087E8B;
+  outline-offset: 2px;
+}
+
+/* Selection color */
+::selection {
+  background: #087E8B;
+  color: #FFFFFF;
+}
